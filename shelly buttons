@@ -40,7 +40,7 @@ blueprint:
         action: {}
 
   source_url: https://community.home-assistant.io/t/shelly-device-switch-template-for-each-click-type/296528
-mode: restart
+mode: parallel
 max_exceeded: silent
 trigger:
 - platform: event
