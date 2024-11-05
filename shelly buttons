@@ -53,18 +53,18 @@ action:
     event: '{{ trigger.event.data.click_type }}'
 - choose:
   - conditions:
-    - '{{ event == "single" }}'
-    - '{{ event == "single_push" }}'
+      - condition: template
+        value_template: '{{ event in ["single", "single_push"] }}'
     sequence: !input 'button_single'
   - conditions:
-    - '{{ event == "double" }}'
-    - '{{ event == "double_push" }}'
+      - condition: template
+        value_template: '{{ event in ["double", "double_push"] }}'
     sequence: !input 'button_double'
   - conditions:
-    - '{{ event == "triple" }}'
-    - '{{ event == "triple_push" }}'
+      - condition: template
+        value_template: '{{ event in ["triple", "triple_push"] }}'
     sequence: !input 'button_triple'
   - conditions:
-    - '{{ event == "long" }}'
-    - '{{ event == "long_push" }}'
+      - condition: template
+        value_template: '{{ event in ["long", "long_push"] }}'
     sequence: !input 'button_long'
