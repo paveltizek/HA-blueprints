@@ -1,0 +1,35 @@
+
+blueprint:
+  name: "Automatizace pro ovládání žaluzií (CCA)"
+  description: |
+    # ⭐ Automatizace pro ovládání žaluzií (CCA) ⭐
+    ### Komplexní a vysoce konfigurovatelný blueprint pro rolety a žaluzie
+
+    **Verze**: 2024.10.21
+    **Nápověda**: [Vlákno komunity](https://community.home-assistant.io/t/cover-control-automation-cca-a-comprehensive-and-highly-configurable-roller-blind-blueprint/680539) | **Zdrojový kód**: [github.com/hvorragend](https://github.com/hvorragend/ha-blueprints/blob/main/blueprints/automation/cover_control_automation.yaml) | **Hlásit chyby**: [Problémy](https://github.com/hvorragend/ha-blueprints/issues)
+
+    **Pokud byste mě chtěli podpořit nebo mi poděkovat, klikněte zde:**
+    ### 🙏 [Dar přes PayPal](https://www.paypal.com/donate/?hosted_button_id=NQE5MFJXAA8BQ) | [Kupte mi kávu](https://buymeacoffee.com/herr.vorragend) 🙏
+
+    <details>
+    <summary><strong>Funkce</strong></summary>
+
+    ✅ Automatické otevírání a zavírání rolet
+    ✅ Volně konfigurovatelné časy a akce
+    ✅ Integrace s podmínkami počasí a času
+    ✅ Manuální ovládání a možnost dočasného zastavení
+    ✅ Flexibilní plánování a integrace do dalších automatizací
+    </details>
+
+    <details>
+    <summary><strong>Potřebné komponenty</strong></summary>
+
+    - Home Assistant 2024.10 nebo vyšší
+    - Kompatibilní žaluzie nebo rolety, které lze ovládat přes Home Assistant
+    </details>
+
+    <details>
+    <summary><strong>Poznámky</strong></summary>
+
+    Tento blueprint poskytuje flexibilní a přizpůsobitelné řešení pro ovládání žaluzií, včetně pokročilých funkcí pro přizpůsobení automatizace podle počasí, času a dalších podmínek.
+    </details>
